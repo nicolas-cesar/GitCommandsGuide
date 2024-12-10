@@ -1,11 +1,9 @@
 # GitCommandsGuide
 ## Atividade em conjunto com o time de desenvolvimento
 
-<<<<<<< HEAD
 features/alexandre
 ## *GIT e GITHUB*
 Apresentação de ferramentas para trabalho em equipe
-
 
 # Git push
 o git push serve para enviar as alterações commitadas no repositório local para o repositório remoto.
@@ -15,7 +13,3 @@ O *git status* mostra o estado atual do repositório, incluindo quais arquivos f
 
 # git add
 O *git add* adiciona mudanças de arquivos ao índice staging area para serem incluídas no próximo commit.
-=======
-# git push
-O *git push* serve para enviar as alterações commitadas no repositório local para o repositório remoto.
->>>>>>> d4ce70a30e1c3c944ad88d05125ec0ba0b6b0729
