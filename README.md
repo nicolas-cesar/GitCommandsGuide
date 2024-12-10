@@ -1,5 +1,5 @@
 # GitCommandsGuide
-## Atividade em conjunto com o time de desenvolvimento
+# Atividade em conjunto com o time de desenvolvimento
 
 # *Git e Github* (Instruções e Configurações)
 As aulas nos permitiram aprender sobre as ferramentas utilizadas para o desenvolvimento de trabalhos em equipe
