@@ -1,6 +1,10 @@
 # GitCommandsGuide
 ## Atividade em conjunto com o time de desenvolvimento
 
+## *GIT e GITHUB*
+Apresentação de ferramentas para trabalho em equipe
+
+
 # Git push
 o git push serve para enviar as alterações commitadas no repositório local para o repositório remoto.
 
