@@ -6,5 +6,5 @@ As aulas nos permitiram aprender sobre as ferramentas utilizadas para o desenvol
 
 
 
-# Git push
-o git push serve para enviar as alterações commitadas no repositório local para o repositório remoto.
+# git push
+O *git push* serve para enviar as alterações commitadas no repositório local para o repositório remoto.
