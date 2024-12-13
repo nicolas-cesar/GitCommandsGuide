@@ -23,7 +23,7 @@ O comando *git commit* é usado no Git para salvar as alterações realizadas no
 ## git stash
 **Descrição:** O comando *git stash* permite salvar temporariamente alterações não commitadas no repositório local, limpando a área de trabalho sem perder o progresso. As alterações salvas podem ser reaplicadas posteriormente na mesma ou em outra branch.
 **Exemplo Prático:**
-``` git stash```  - *Guarda as alterações atuais*  
+```git stash```  - *Guarda as alterações atuais*  
 ```git stash list``` - *Lista os stashes salvos*
 ```git stash pop``` - *Reaplica e remove o stash da lista*  
-``` git stash apply```  - *Reaplica o último stash*
+```git stash apply```  - *Reaplica o último stash*
