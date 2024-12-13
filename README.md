@@ -4,16 +4,20 @@
 # *Git e Github* (Instruções e Configurações)
 As aulas nos permitiram aprender sobre as ferramentas utilizadas para o desenvolvimento de trabalhos em equipe
 
-# git status
-O *git status* mostra o estado atual do repositório, incluindo quais arquivos foram modificados, quais estão prontos para commit, e quais não estão rastreados.
+## git status
+**Descrição:** O comando *git status* é utilizado para mostrar o estado atual do repositório, incluindo quais arquivos foram modificados, quais estão prontos para realizar o comando *git commit*, e quais não estão rastreados.
+**Exemplo Prático:**
+```git status``` - mostra o estado atual do repositório 
 
 ## git add
 **Descrição:** Este comando atualiza o índice usando o conteúdo atual encontrado na árvore de trabalho, para preparar o conteúdo marcado para o próximo commit. 
 Normalmente, ele adiciona o conteúdo atual de caminhos existentes como um todo, mas com algumas opções, também pode ser usado para adicionar conteúdo com apenas parte das mudanças feitas aos arquivos da árvore de trabalho aplicadas, ou remover caminhos que não existem mais na árvore de trabalho. Este comando pode ser executado várias vezes antes de um *commit*. Ele adiciona apenas o conteúdo dos arquivos especificados no momento em que o comando *add* é executado; 
 se você quiser que alterações subsequentes sejam incluídas no próximo commit, você deve executar *git add* novamente para adicionar o novo conteúdo ao índice. 
-**Exemplo Prático:**    
-```git add --sparse``` Permite a atualização de entradas do índice fora do cone de checkout esparso. Normalmente, o git add se recusa a atualizar entradas do índice cujos caminhos não se encaixam no cone de checkout esparso, pois esses arquivos podem ser removidos da árvore de trabalho sem aviso. Consulte git-sparse-checkout[1] para mais detalhes.
-
+**Exemplo Prático:**
+```git add <nome-do-arquivo>``` - Adiciona o arquivo *nome-do-arquivo* na staging area
+```git add .``` - Adiciona todos os arquivos modificados para a staging area
+```git add *<.extensão>``` - Adiciona todos os arquivos com a extensão *.extensão* para a staging area
+```git add --sparse``` - Permite a atualização de entradas do índice fora do cone de checkout esparso. Normalmente, o git add se recusa a atualizar entradas do índice cujos caminhos não se encaixam no cone de checkout esparso, pois esses arquivos podem ser removidos da árvore de trabalho sem aviso. Consulte git-sparse-checkout[1] para mais detalhes.
 ```git add --interactive``` Adicione conteúdos modificados na árvore de trabalho de forma interativa ao índice. Argumentos de caminho opcionais podem ser fornecidos para limitar a operação a um subconjunto da árvore de trabalho. Consulte "Modo interativo" para detalhes.
 
 ## git commit
