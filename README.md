@@ -29,4 +29,3 @@ O conteúdo a ser commitado pode ser especificado de várias maneiras:
 ```git commit --all``` Informa ao comando para preparar automaticamente arquivos que foram modificados e deletados, mas novos arquivos que você não informou ao Git não serão afetados.
  
 ```git commit --short``` Ao fazer uma execução simulada, forneça a saída no formato curto. Consulte git-status[1] para detalhes. Implica --dry-run.
-
