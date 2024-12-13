@@ -30,8 +30,3 @@ O conteúdo a ser commitado pode ser especificado de várias maneiras:
  
 ```git commit --short``` Ao fazer uma execução simulada, forneça a saída no formato curto. Consulte git-status[1] para detalhes. Implica --dry-run.
 
-# Git push
-o *git push* serve para enviar as alterações commitadas no repositório local para o repositório remoto.
-
-# Git stash
-o *git stash* possibilita guardar temporariamente as alterações realizadas na branch local, de forma a reaplicar essas alterações em outras branches locais.
